@@ -7,6 +7,7 @@ function App() {
   const [theme, setTheme ] = useState('red')
   return (
     <ThemeContext.Provider value = { {backgroundColor: theme}}>
+      <h1>Counter App with React</h1>
       <h2>Counter</h2>
         <Counter initialCount= {0}/>
 
